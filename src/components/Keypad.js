@@ -1,8 +1,16 @@
 // Code Keypad Component Here
 
 function Keypad (){
+
+
+    function Handler(){
+        console.log('Entering password...');
+
+    }
     return (
-        <div></div>
+        <div>
+            <input type="button" onClick={Handler}/>
+        </div>
     )
 }
 
